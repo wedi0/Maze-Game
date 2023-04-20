@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #555;
+}
+
+@font-face {
+	font-family: emulogic;
+	src: url('emulogic.ttf');
+}
+
+.hidden {
+	font-family: emulogic;
+	visibility: hidden;
+	position: absolute;
+}
+
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Aplica responsividade para diferentes resoluções */
+@media only screen and (max-width: 600px) {
+
+	/* Estilos para telas com largura máxima de 600px */
+	body {
+		flex-direction: column;
+	}
+}
+
+/* Aplica responsividade para diferentes resoluções */
+
+
+@media only screen and (max-width: 400px) {
+
+	/* Estilos para telas com largura máxima de 400px */
+	body {
+		flex-direction: column;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+
+	/* Estilos para telas com largura máxima de 400px */
+	body {
+		flex-direction: column;
+	}
+}
